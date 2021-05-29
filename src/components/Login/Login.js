@@ -1,7 +1,8 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import './Login.css';
-import userImage from '../../images/user-group-296.png'
+import userImage from '../../images/user-group-296.png';
+import Button from 'react-bootstrap/Button'
 
 const Login = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -31,26 +32,30 @@ const Login = () => {
                 </div>
             </div>
             <div className="row icon-title-holder mt-5 text-center">
-                <div className="col d-flex justify-content-center align-items-center ">
-                    <div className="pr-4">
-                        <img src="https://img.icons8.com/color/50/000000/google-logo.png" />
-                    </div>
-                    <div className="google-login pl-4">
-                        <h5>Sign in With Google</h5>
-                    </div>
-                </div>
+                <Button className="btn btn-light">
+                    <div className="col d-flex justify-content-center align-items-center ">
 
+                        <div className="pr-4">
+                            <img src="https://img.icons8.com/color/47/000000/google-logo.png" />
+                        </div>
+                        <div className="google-login pl-4">
+                            <h5>Sign in With Google</h5>
+                        </div>
+
+                    </div>
+                </Button>
             </div>
             <div className="row icon-title-holder mt-2 text-center">
-                <div className="col d-flex justify-content-center align-items-center ">
-                    <div className="pr-4">
-                        <img src="https://img.icons8.com/color/50/000000/facebook-circled--v4.png" />
+                <Button className="btn btn-light">
+                    <div className="col d-flex justify-content-center align-items-center ">
+                        <div className="pr-4">
+                            <img src="https://img.icons8.com/color/48/000000/facebook-circled--v4.png" />
+                        </div>
+                        <div className="google-login pl-4">
+                            <h5>Sign in With FaceBook</h5>
+                        </div>
                     </div>
-                    <div className="google-login pl-4">
-                        <h5>Sign in With FaceBook</h5>
-                    </div>
-                </div>
-
+                </Button>
             </div>
         </section>
     );

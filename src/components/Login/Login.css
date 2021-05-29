@@ -43,6 +43,10 @@ content:cover;
     width: 40%;
     margin: auto;
 }
+.icon-title-holder Button{
+    border-radius: 20px;
+    background-color:none;
+}
 @media (max-width:568px),(max-width:768px){
     .main-form{
         width:90%;
