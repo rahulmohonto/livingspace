@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home/Home';
-import React from "react";
+import React, { createContext, useState } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,28 +12,33 @@ import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
 import ApartmentDetails from './components/Home/ApartmentDetails/ApartmentDetails';
 
+export const UserContext = createContext();
 
 function App() {
+  const [loggedInUser, setLoggedInUser] = useState([])
   return (
-    <Router>
-      <div className="App">
-        <NavbarTop />
-        <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/details">
-            <ApartmentDetails />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+      <Router>
+        <div className="App">
+          <NavbarTop />
+          <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/details/:id">
+              <ApartmentDetails />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+      <footer className="text-center text-primary"> <small>&copy; Copyright {(new Date()).toLocaleString()}, All Rights Reserved</small> </footer>
+    </UserContext.Provider>
   );
 }
 

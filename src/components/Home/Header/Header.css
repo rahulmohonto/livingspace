@@ -3,14 +3,15 @@
     content:cover;
     height:650px;
     box-sizing: border-box;
-  
+  font-size: 100%;
+ 
 }
 .info-container{
     margin-top:130px;
-   
+  
 }
 .firstText{
-    font-size: 94px;
+    font-size: 74px;
 }
 .firstText .letter {
     display: inline-block;
@@ -39,8 +40,14 @@
 }
 
 
-@media (max-width:568px),(max-width:792px){
+@media (max-width:568px),(max-width:792px),(max-width:1130px){
     .search-container{
-        width:90%;
+        width:70%;
+    }
+}
+@media (max-width:1130px),(max-width:792px){
+    .search-container{
+        margin-top:6px;
+        width:70%;
     }
 }

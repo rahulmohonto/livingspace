@@ -2,9 +2,44 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import './Login.css';
 import userImage from '../../images/user-group-296.png';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/firestore";
+import firebaseConfig from './firebase.config';
+import { useContext } from 'react';
+import { UserContext } from "../../App";
+import { useHistory, useLocation } from "react-router";
+
 
 const Login = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const history = useHistory();
+    const location = useLocation();
+    const { from } = location.state || { from: { pathname: "/" } };
+
+    if (firebase.apps.length === 0) {
+        firebase.initializeApp(firebaseConfig);
+    }
+
+    const handleGoogleSignIn = () => {
+        var provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().signInWithPopup(provider).then(function (result) {
+            const { displayName, email } = result.user;
+
+            const signedInUser = { name: displayName, email: email }
+            setLoggedInUser(signedInUser);
+            console.log(loggedInUser)
+
+            history.replace(from);
+
+            // ...
+        }).catch(function (error) {
+            const errorMessage = error.message;
+            console.log(errorMessage);
+        });
+    }
+
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
     return (
@@ -32,7 +67,7 @@ const Login = () => {
                 </div>
             </div>
             <div className="row icon-title-holder mt-5 text-center">
-                <Button className="btn btn-light">
+                <Button onClick={handleGoogleSignIn} className="btn btn-light">
                     <div className="col d-flex justify-content-center align-items-center ">
 
                         <div className="pr-4">
