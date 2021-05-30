@@ -19,13 +19,13 @@ const Home = () => {
             <Reveal duration={3000} delay={2000} effect="fadeInUp" effectOut="fadeOutLeft">
                 <Cards />
             </Reveal>
-            <Reveal duration={3000} delay={4000} effect="fadeInUp" effectOut="fadeOutLeft">
+            <Reveal duration={3000} delay={2000} effect="fadeInUp" effectOut="fadeOutLeft">
                 <Services></Services>
             </Reveal>
-            <Reveal right duration={3000} delay={4000} effectOut="fadeOutLeft">
+            <Reveal right duration={3000} delay={3000} effectOut="fadeOutLeft">
                 <Subscribe></Subscribe>
             </Reveal>
-            <Bounce left duration={3000} delay={4000} effect="fadeInUp" effectOut="fadeOutLeft">
+            <Bounce left duration={3000} delay={3000} effect="fadeInUp" effectOut="fadeOutLeft">
                 <Footer></Footer>
             </Bounce>
 
