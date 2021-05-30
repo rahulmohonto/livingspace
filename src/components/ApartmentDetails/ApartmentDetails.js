@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { UserContext } from '../../../App';
+import { UserContext } from '../../App';
 import { useParams } from 'react-router-dom';
-import fakeData from '../../FakeData/FakeData.json';
+import fakeData from '../FakeData/FakeData.json';
 import './ApartmentDetails.css';
-// import outsideImage from '../../../images/outsideImage.gif';
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
 

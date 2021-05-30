@@ -1,5 +1,5 @@
 .apartmentImage{
-    background:url(../../../images/apartment-bg.jpg);
+    background:url(../../images/apartment-bg.jpg);
     box-sizing: border-box;
   
     background-position: center;
@@ -14,7 +14,7 @@ font-size:76px;
 color:#FFFFFF;
 }
 .outside-image{
-    /* background:url(../../../images/outsideImage.gif); */
+    background:url(../../images/outsideImage.gif);
     background-repeat: no-repeat;
     height:350px;
     /* background-color: blue; */
