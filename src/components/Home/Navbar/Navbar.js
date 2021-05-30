@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './Navbar.css';
 import Anime, { anime } from 'react-anime';
 import Reveal from 'react-reveal/Reveal';

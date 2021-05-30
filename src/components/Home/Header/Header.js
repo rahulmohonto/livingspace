@@ -11,7 +11,7 @@ import Typical from 'react-typical';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import Jump from 'react-reveal/Jump';
-import Reveal from 'react-reveal/Reveal';
+// import Reveal from 'react-reveal/Reveal';
 
 const Header = () => {
     const getText = () => {
