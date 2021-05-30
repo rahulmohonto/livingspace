@@ -5,16 +5,17 @@ import Reveal from 'react-reveal/Reveal';
 import { useHistory } from 'react-router-dom';
 const SingleCard = (props) => {
     console.log(props);
-    const { apartmentName, id, image, apartmentPrice, type } = props.data;
+    const { apartmentName, id, image, apartmentPrice, type, _id } = props.data;
 
+    console.log(_id);
     const history = useHistory()
-    const handleSelectApartment = id => {
-        history.push(`/details/${id}`)
+    const handleSelectApartment = _id => {
+        history.push(`/details/${_id}`)
     }
 
     return (
         <Reveal duration={3000}>
-            <Card onClick={() => handleSelectApartment(id)} style={{ width: '18rem', marginBlock: '1rem' }}>
+            <Card onClick={() => handleSelectApartment(_id)} style={{ width: '18rem', marginBlock: '1rem' }}>
                 <Card.Img variant="top" src={props.data.image} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
