@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+./apartment-hunt-main
 /.pnp
 .pnp.js
 
