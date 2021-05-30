@@ -20,15 +20,15 @@ const NavbarTop = () => {
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="m-auto text-dark">
 
-                                    <Nav.Link className="text-dark" href="/home">Home</Nav.Link>
-                                    <Nav.Link className="text-dark" href="#">About</Nav.Link>
-                                    <Nav.Link className="text-dark" href="#contact">Contact</Nav.Link>
-                                    <Nav.Link className="text-dark" href="#services">Services</Nav.Link>
+                                    <Nav.Link className="text-dark homer" href="/home">Home</Nav.Link>
+                                    <Nav.Link className="text-dark homer" href="#">About</Nav.Link>
+                                    <Nav.Link className="text-dark homer" href="#contact">Contact</Nav.Link>
+                                    <Nav.Link className="text-dark homer" href="#services">Services</Nav.Link>
                                 </Nav>
 
                                 <Nav className="text-dark">
-                                    <Nav.Link className="text-dark" href="/login">Sign Up / </Nav.Link>
-                                    <Nav.Link className="text-dark" href="/login"> Sign In</Nav.Link>
+                                    <Nav.Link className="text-dark homer" href="/login">Sign Up / </Nav.Link>
+                                    <Nav.Link className="text-dark homer" href="/login"> Sign In</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
