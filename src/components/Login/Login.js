@@ -40,7 +40,7 @@ const Login = () => {
         });
     }
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
     return (
         <section className="login-container">
@@ -71,7 +71,7 @@ const Login = () => {
                     <div className="col d-flex justify-content-center align-items-center ">
 
                         <div className="pr-4">
-                            <img src="https://img.icons8.com/color/47/000000/google-logo.png" />
+                            <img src="https://img.icons8.com/color/47/000000/google-logo.png" alt="/" />
                         </div>
                         <div className="google-login pl-4">
                             <h5>Sign in With Google</h5>
@@ -84,7 +84,7 @@ const Login = () => {
                 <Button className="btn btn-light">
                     <div className="col d-flex justify-content-center align-items-center ">
                         <div className="pr-4">
-                            <img src="https://img.icons8.com/color/48/000000/facebook-circled--v4.png" />
+                            <img src="https://img.icons8.com/color/48/000000/facebook-circled--v4.png" alt="/" />
                         </div>
                         <div className="google-login pl-4">
                             <h5>Sign in With FaceBook</h5>

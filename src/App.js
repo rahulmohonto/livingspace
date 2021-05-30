@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home/Home';
 import React, { createContext, useState } from 'react';
@@ -6,7 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+
 } from "react-router-dom";
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
@@ -25,7 +24,7 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/details/:id">
+            <Route path="/details/:_id">
               <ApartmentDetails />
             </Route>
             <Route path="/login">

@@ -5,12 +5,10 @@ import { useHistory } from 'react-router-dom';
 import './SingleCard.css';
 
 const SingleCard = (props) => {
-    console.log(props);
     const { apartmentName, id, size, monthlyRent, address, image, apartmentPrice, type } = props.data;
-
     const history = useHistory()
-    const handleSelectApartment = id => {
-        history.push(`/details/${id}`)
+    const handleSelectApartment = _id => {
+        history.push(`/details/${_id}`)
     }
 
     return (

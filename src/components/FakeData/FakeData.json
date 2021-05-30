@@ -1,5 +1,6 @@
 [{
     "id": 1,
+    "_id":"60b3b1bcfc13ae22ab000000",
     "apartmentName": "Studio",
     "details": "10 Foot Ceilings, 100% LED Lighting, 24-Hour Package Lockers. Electronic Thermostat, Wi-Fi Hotspot, Quartz Countertops, No BelCony available.",
     "apartmentPrice": "$400",
@@ -18,6 +19,7 @@
     "bookedForTimes": 0
   }, {
     "id": 2,
+    "_id":"60b3b1bcfc13ae22ab000001",
     "apartmentName": "Convertible",
     "details": "Large 2 bedroom, 1living room, 1 bathroom.Side belcony 3.5 blocks from blue line. 2 blocks to major shopping. No pets! Tenant pays gas and lights. Garbage fee $20 per month. No laundry in bldg.",
     "apartmentPrice": "$1600",
@@ -36,6 +38,7 @@
     "bookedForTimes": 0
   }, {
     "id": 3,
+    "_id":"60b3b1bcfc13ae22ab000002",
     "apartmentName": "Duplex/Triplex",
     "details": "Large 2/3 bedroom 1 living room, 1/2 bathroom, Large decorated Kitchen air conditioning, dishwasher, parking space, garden walk-in closet. Close range library, hospital. 3 blocks to major shopping. Pets allowed. Garbage fee $25 per month. Laundry service.",
     "apartmentPrice": "$2600",
@@ -54,6 +57,7 @@
     "bookedForTimes": 0
   }, {
     "id": 4,
+    "_id":"60b3b1bcfc13ae22ab000003",
     "apartmentName": "Garden Apartment",
     "details": "2 Bedroom 2 Bathroom condo for rent at the Savoy, located in the Little Tokyo district of downtown Los Angeles. Unit features in unit laundry, wood floors, modern kitchen with large island, granite countertops, and stainless steel appliances, and updated bathrooms. The unit comes with 2 side by side parking spaces and has a balcony.Pool, Deck, Pet space, parking spot, balcony.",
     "apartmentPrice": "$2100",
@@ -72,6 +76,7 @@
     "bookedForTimes": 0
   }, {
     "id": 5,
+    "_id":"60b3b1bcfc13ae22ab000004",
     "apartmentName": "Multi-Storey",
     "details": "Large 1 bedroom 12x13 kitchen, 12x13 living room, 12x10 bedroom large 4x8 walk-in closet. 3.5 blocks from blue line. 2 blocks to major shopping. No pets! Tenant pays gas and lights. Garbage fee $20 per month. No laundry in bldg.",
     "apartmentPrice": "$1300",
@@ -90,6 +95,7 @@
     "bookedForTimes": 0
   }, {
     "id": 6,
+    "_id":"60b3b1bcfc13ae22ab000005",
     "apartmentName": "Luxury Avenue",
     "details": "Country Club Towers and Gardens is located adjacent to one of the most vibrant and sought-after areas of Denver—Cherry Creek Shopping and Dining District. Plus, Washington Park (Wash Park) is four blocks away—perfect for long walks with your dog, city-sponsored sports activities, jogging and more. The entry to Cherry Creek Trail is one minute away, so grab your bike or use the B-cycle station across the street.",
     "apartmentPrice": "$3000",
@@ -108,6 +114,7 @@
     "bookedForTimes": 0
   }, {
     "id": 7,
+    "_id":"60b3b1bcfc13ae22ab000006",
     "apartmentName": "Villa",
     "details": "Large 2 bedroom 1 master bedroom, 1 dining hall, 1 large kitchen with dressing room, 5 minutes walks from sea beach, Washer & Dryer, No Smoking, TV, Children Welcome, Satellite or cable, Internet, Air Conditioning, Parking, Heater, Pets Welcome. Garden with pool and personal parking space, high society neighbourhood.",
     "apartmentPrice": "$4100",
@@ -126,6 +133,7 @@
     "bookedForTimes": 0
   }, {
     "id": 8,
+    "_id":"60b3b1bcfc13ae22ab000007",
     "apartmentName": "King Palace",
     "details": "2 large double rooms,1 master size organized kitchen, 1 swimming pool Parking Family rooms, Pets allowed, Smoking rooms with Bar, Good for couples - they rate the facilities 8.3 for two-person stays. Canal view",
     "apartmentPrice": "$6200",
@@ -144,6 +152,7 @@
     "bookedForTimes": 0
   }, {
     "id": 9,
+    "_id":"60b3b1bcfc13ae22ab000008",
     "apartmentName": "Normal House",
     "details": "Large 1 twin bedroom, 1 bathroom, 1 kitchen.Laundry Facility On-Site,  Complimentary Wi-Fi, Lighted Ceiling Fans Walk-in Showers,  Wood Plank Flooring, Smoke-Free Neighborhood. Convenient Location, Home & Away Services (Mail, Plants, Etc.)",
     "apartmentPrice": "$200",
@@ -162,6 +171,7 @@
     "bookedForTimes": 0
   }, {
     "id": 10,
+    "_id":"60b3b1bcfc13ae22ab000009",
     "apartmentName": "Condominium",
     "details": "Large 1 bedroom 12x13 kitchen, 12x13 living room, 12x10 bedroom large 4x8 walk-in closet. 3.5 blocks from blue line. 2 blocks to major shopping. No pets! Tenant pays gas and lights. Garbage fee $20 per month. No laundry in bldg.",
     "apartmentPrice": "$1800",
