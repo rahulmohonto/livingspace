@@ -48,10 +48,10 @@ const Header = () => {
                             <Fade top cascade> <h1 className="text-center firstText">Find The Best Spot To Live
                             <Typical loop={Infinity} steps={['At Villa', 3000, 'At Palace', 3000, 'At Avenue', 3000, 'At Studio', 3000, 'At Convertible', 3000,]} />
                             </h1></Fade>
-                            <Zoom effect="fadeInUp">  <h4 className="text-center secondText">Living Organization at Your Doorstep</h4></Zoom>
+                            <Zoom delay={600} effect="fadeInUp">  <h4 className="text-center secondText">Living Organization at Your Doorstep</h4></Zoom>
                             {/* </Anime> */}
                             <div className="search-container align-content-center">
-                                <Jump> <Form id="form-apart" className="d-flex">
+                                <Jump delay={900} effect="easeIn">  <Form id="form-apart" className="d-flex">
                                     <FormControl
                                         type="search"
                                         placeholder="Search"

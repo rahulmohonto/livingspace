@@ -18,7 +18,7 @@ const NavbarTop = () => {
                                 <Nav className="m-auto text-dark">
 
                                     <Nav.Link className="text-dark" href="/home">Home</Nav.Link>
-                                    <Nav.Link className="text-dark" href="#about">About</Nav.Link>
+                                    <Nav.Link className="text-dark" href="/details">About</Nav.Link>
                                     <Nav.Link className="text-dark" href="#contact">Contact</Nav.Link>
                                     <Nav.Link className="text-dark" href="#services">Services</Nav.Link>
                                 </Nav>

@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
+import ApartmentDetails from './components/Home/ApartmentDetails/ApartmentDetails';
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         <Switch>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/details">
+            <ApartmentDetails />
           </Route>
           <Route path="/login">
             <Login />

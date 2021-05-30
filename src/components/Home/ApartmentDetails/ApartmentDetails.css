@@ -1,0 +1,56 @@
+.apartmentImage{
+    background:url(../../../images/apartment-bg.jpg);
+    box-sizing: border-box;
+  
+    background-position: center;
+    content: cover;
+    height:260px;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+}
+.apartmentImage h2{
+font-size:76px;
+color:#FFFFFF;
+}
+.outside-image{
+    background:url(../../../images/outsideImage.gif);
+    background-repeat: no-repeat;
+    height:350px;
+    /* background-color: blue; */
+    width:680px;
+    content:cover;
+    box-sizing: border-box;
+}
+@media (max-width:576px),(max-width:768px),(max-width:992px), (max-width:1200px){
+    .outside-image{
+   width:98%;
+   box-sizing: border-box;
+    }
+}
+/* @media (max-width:992px),(max-width:1200px){
+    .apartmentImage{
+
+    }
+} */
+.insideImage-container{
+    width:680px;
+    width: 100%;
+    content:cover;
+    box-sizing: border-box;
+   /* background-color: blue; */
+}
+.insideImage-container img{
+    height:100px;
+    width:400px;
+    padding: 0 8px;
+    box-sizing: border-box;   
+}
+
+ /* @media (max-width:576px),(max-width:768px){
+    .insideImage-container .inside{
+        width:98%;
+        display:grid;
+      grid-template-columns: auto auto;
+    }
+ } */
