@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
-import ApartmentDetails from './components/Home/ApartmentDetails/ApartmentDetails';
+import ApartmentDetails from './components/ApartmentDetails/ApartmentDetails';
 
 export const UserContext = createContext();
 
@@ -37,7 +37,6 @@ function App() {
           </Switch>
         </div>
       </Router>
-      <footer className="text-center text-primary"> <small>&copy; Copyright {(new Date()).toLocaleString()}, All Rights Reserved</small> </footer>
     </UserContext.Provider>
   );
 }

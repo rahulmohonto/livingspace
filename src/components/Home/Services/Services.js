@@ -6,10 +6,10 @@ import ServiceDetail from "../ServiceDetail/ServiceDetail";
 
 const servicesData = [
   {
-    name: "Financing Made Easy",
+    name: "Flat Booking Made Easy",
     img: Financing,
     description:
-      "Our stress-free finance department that can find financial solutions to save your money",
+      "Our stress-free flat booking service that can find economic apartments to save your money",
   },
   {
     name: "Wide Range of Properties",
@@ -28,15 +28,16 @@ const servicesData = [
 const Services = () => {
   return (
     <div id="services">
-      <section className="Services-container my-5">
+      <section className="Services-container my-5 py-5">
         <div className="text-center">
-          <h6>SERVICES</h6>
+          <h2>SERVICES</h2>
+          <br />
           <h3 style={{ color: "#1C423D" }}>
             We're an agency tailored to all <br />
             clients' needs that always delivers{" "}
           </h3>
         </div>
-        <div className="d-flex justify-content-center mt-5 mb-5">
+        <div className="d-flex justify-content-center mt-5 pt-4">
           <div className="w-75 row">
             {servicesData.map((service) => (
               <ServiceDetail service={service}></ServiceDetail>

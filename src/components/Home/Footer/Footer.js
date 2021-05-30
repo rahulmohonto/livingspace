@@ -47,6 +47,7 @@ const Footer = () => {
                         </ul>
                     </FooterCol>
                 </div>
+                <p style={{color: 'white', textAlign: 'center'}} className='mt-4 pb-2'><small>{(new Date()).getFullYear()} © Living Space. All Right Reserved.</small></p>
             </div>
         </footer>
 

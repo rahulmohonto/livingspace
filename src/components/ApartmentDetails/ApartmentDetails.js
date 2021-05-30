@@ -1,10 +1,10 @@
 import React from 'react';
 import './ApartmentDetails.css';
-// import outsideImage from '../../../images/outsideImage.gif';
-import inside1 from '../../../images/inside1.jpg';
-import inside2 from '../../../images/inside2.jpg';
-import inside3 from '../../../images/inside3.jpg';
-import inside4 from '../../../images/inside4.jpg';
+// import outsideImage from '../../images/outsideImage.gif';
+import inside1 from '../../images/inside1.jpg';
+import inside2 from '../../images/inside2.jpg';
+import inside3 from '../../images/inside3.jpg';
+import inside4 from '../../images/inside4.jpg';
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
 

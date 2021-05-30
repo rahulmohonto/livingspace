@@ -14,7 +14,8 @@
     "image1":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4WMZ66wl0sLvVI0TKkNnRYQhvdccEzGV1xA&usqp=CAU",
     "image2":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-yqlhd0BFsLO-uy4Ti8EDCZvxvaDDm6QyUw&usqp=CAU",
     "image3":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ38XkowND-gYYcvyjrfJCTsR4uC4r99uosaA&usqp=CAU",
-    "image4":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsNsVDZjS8yFGlQLe_pPWz7b4fjfWAnXB7g&usqp=CAU"
+    "image4":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREsNsVDZjS8yFGlQLe_pPWz7b4fjfWAnXB7g&usqp=CAU",
+    "bookedForTimes": 0
   }, {
     "id": 2,
     "apartmentName": "Convertible",
@@ -31,7 +32,8 @@
     "image1":"https://www.idesignarch.com/wp-content/uploads/Vlad-Mishin-Transformer-Apartment_4.jpg",
     "image2":"https://i.dailymail.co.uk/i/pix/2015/07/27/06/2ADEC54C00000578-3175663-A_woman_moves_the_central_cupboard_to_create_space_for_the_apart-a-42_1437974135366.jpg",
     "image3":"https://images.dwell.com/photos-6133435856926433280/6459895036419846144-large/the-bedroom-facing-the-street-and-adjacent-to-the-homes-only-windows-was-a-natural-spot-for-pilars-son-guillermo-since-guillermo-would-only-be-visiting-intermittently-the-bedroom-wall-could-be-kept-open-most-of-the-time-allowing-unrestricted-light-to-pene.jpg",
-    "image4":"https://freight.cargo.site/t/original/i/e57cb09221827e75b8ed2c7d26c4b050def29eb599626bbf53aa4086ea39f6fd/1_1b.jpg"
+    "image4":"https://freight.cargo.site/t/original/i/e57cb09221827e75b8ed2c7d26c4b050def29eb599626bbf53aa4086ea39f6fd/1_1b.jpg",
+    "bookedForTimes": 0
   }, {
     "id": 3,
     "apartmentName": "Duplex/Triplex",
@@ -48,7 +50,8 @@
     "image1":"https://houseplanhunters.com/img/cozyduplex.jpg",
     "image2":"https://cdn.senaterace2012.com/wp-content/uploads/triplex-apartment-latest-bestapartment_86665.jpg",
     "image3":"https://www.idesignarch.com/wp-content/uploads/De-Waterkant_5.jpg",
-    "image4":"https://cdn.homedsgn.com/wp-content/uploads/2012/07/Bangalore-Duplex-Apartment-02.jpg"
+    "image4":"https://cdn.homedsgn.com/wp-content/uploads/2012/07/Bangalore-Duplex-Apartment-02.jpg",
+    "bookedForTimes": 0
   }, {
     "id": 4,
     "apartmentName": "Garden Apartment",
@@ -65,7 +68,8 @@
     "image1":"https://cimg9.ibsrv.net/ibimg/www.apartmentratings.com/650x350_85-1/1/0/2/1021112766769786846114.jpg",
     "image2":"https://archello.s3.eu-central-1.amazonaws.com/images/2018/05/17/1.tobiarchitects.1526566679.5654.jpg",
     "image3":"https://leibal.com/wp-content/uploads/2020/02/leibal_house-takatsuki_tato-architects_12.jpg",
-    "image4":"https://images.adsttc.com/media/images/5e6f/6cc5/b357/65c4/1200/0655/newsletter/026House_in_Takatsuki023.jpg?1584360635"
+    "image4":"https://images.adsttc.com/media/images/5e6f/6cc5/b357/65c4/1200/0655/newsletter/026House_in_Takatsuki023.jpg?1584360635",
+    "bookedForTimes": 0
   }, {
     "id": 5,
     "apartmentName": "Multi-Storey",
@@ -82,7 +86,8 @@
     "image1":"https://www.impressiveinteriordesign.com/wp-content/uploads/2016/02/Advantages-And-Disadvantages-Of-Apartments-Living1.jpg",
     "image2":"https://okl.scene7.com/is/image/OKL/OKL_MRK_00010443_FULL_Related%20Home%20Tour_Hudson%20Yard_Living%20Dining%20V2_1?$Fullzoom$",
     "image3":"https://images.squarespace-cdn.com/content/v1/57f285ac5016e13a6d522dc5/1559596749344-4RLYPOC7JU6EOFQG47OC/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/2019_05_06+565+Broome+0328XX.jpg",
-    "image4":"https://aasarchitecture.com/wp-content/uploads/Richard-Meier-Partners-unveils-design-of-New-685-First-Avenue-Tower-in-Manhattan-06.jpg"
+    "image4":"https://aasarchitecture.com/wp-content/uploads/Richard-Meier-Partners-unveils-design-of-New-685-First-Avenue-Tower-in-Manhattan-06.jpg",
+    "bookedForTimes": 0
   }, {
     "id": 6,
     "apartmentName": "Luxury Avenue",
@@ -99,7 +104,8 @@
     "image1":"https://res.cloudinary.com/apartmentlist/image/upload/f_auto,q_auto,t_web-base/b92f00c5f959c25884c53efbc072e894.jpg",
     "image2":"https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/flor-apt-living-(2).jpg?ext=.jpg",
     "image3":"https://onesixtymadison.com/site/assets/files/1022/160-madison-residences.jpg",
-    "image4":"https://res.cloudinary.com/maa/image/upload/c_lfill,g_auto,f_auto,q_auto:eco,h_525,w_1059/v1/maac/-/media/images/properties/washington-dc-area/post-mass-ave/slides/219700-post-massachusetts-avenue-luxury-apartments_hall_1edit-min.jpg"
+    "image4":"https://res.cloudinary.com/maa/image/upload/c_lfill,g_auto,f_auto,q_auto:eco,h_525,w_1059/v1/maac/-/media/images/properties/washington-dc-area/post-mass-ave/slides/219700-post-massachusetts-avenue-luxury-apartments_hall_1edit-min.jpg",
+    "bookedForTimes": 0
   }, {
     "id": 7,
     "apartmentName": "Villa",
@@ -116,7 +122,8 @@
     "image1":"https://apartmentsnearsplit.com/images/uploads/rotator-004-villa.jpg",
     "image2":"https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHZpbGxhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
     "image3":"https://img.freepik.com/free-photo/interior-design-dining-area-pool-villa-house-home-condo-apartment-feature-dining-table-dining-chair-open-space-living-room_176546-155.jpg?size=626&ext=jpg",
-    "image4":"https://www.engelvoelkers.com/images/4e572b95-533f-4ed0-aa96-210b1ff7bb8a/lake-view-apartment-in-villa-bertone"
+    "image4":"https://www.engelvoelkers.com/images/4e572b95-533f-4ed0-aa96-210b1ff7bb8a/lake-view-apartment-in-villa-bertone",
+    "bookedForTimes": 0
   }, {
     "id": 8,
     "apartmentName": "King Palace",
@@ -133,7 +140,8 @@
     "image1":"https://media.istockphoto.com/photos/palace-entrance-staircase-picture-id118118607?k=6&m=118118607&s=612x612&w=0&h=H4YuU9tYkE_eVDTCy4NliQFbPZJgx5KcJLWTQT6Sz2A=",
     "image2":"https://ta-images.condecdn.net/image/PP6lzqQN2nY/crop/1620/f/buckingham-palace_p158-159.jpg",
     "image3":"https://media.istockphoto.com/photos/luxurious-vintage-interior-with-fireplace-in-the-aristocratic-style-picture-id943834706?k=6&m=943834706&s=612x612&w=0&h=LyysnfrGzZbEz1EwHkTty2d66QUyO96uyk93j2qKLek=",
-    "image4":"https://s30964.pcdn.co/introspective-magazine/wp-content/uploads/2018/10/buckingham_hero.jpg"
+    "image4":"https://s30964.pcdn.co/introspective-magazine/wp-content/uploads/2018/10/buckingham_hero.jpg",
+    "bookedForTimes": 0
   }, {
     "id": 9,
     "apartmentName": "Normal House",
@@ -150,7 +158,8 @@
     "image1":"https://i2-prod.mirror.co.uk/incoming/article10387559.ece/ALTERNATES/s615b/House-for-sale-with-hundreds-of-clowns.jpg",
     "image2":"https://www.ladbible.com/cdn-cgi/image/width=1200,quality=70,format=jpeg,fit=cover,dpr=1/https%3A%2F%2Fs3-images.ladbible.com%2Fs3%2Fcontent%2F549726c16029bfdd7f5b449fda72f929.png",
     "image3":"https://www.thesun.co.uk/wp-content/uploads/2016/07/nintchdbpict000250029282.jpg?w=960&strip=all",
-    "image4":"https://m0.joe.co.uk/wp-content/uploads/2020/09/16112002/Screenshot-2020-09-16-at-11.18.30.png"
+    "image4":"https://m0.joe.co.uk/wp-content/uploads/2020/09/16112002/Screenshot-2020-09-16-at-11.18.30.png",
+    "bookedForTimes": 0
   }, {
     "id": 10,
     "apartmentName": "Condominium",
@@ -167,5 +176,6 @@
     "image1":"https://www.smalldesignideas.com/wp-content/uploads/2016/02/simple-small-apartment-bedroom-with-workspace-idea7.jpg",
     "image2":"https://cdn.decorilla.com/online-decorating/wp-content/uploads/2020/07/Condominium-living-room-interior-design.jpg",
     "image3":"https://bitrebels.com/wp-content/uploads/2020/10/interior-design-small-apartment-condo-image1.jpg",
-    "image4":"https://www.smalldesignideas.com/wp-content/uploads/2016/01/2605_7acb0c71-0aa2-405b-a471-0e9f3731643c_max_1600_1052_-sypialnia-styl-nowoczesny.jpg"
+    "image4":"https://www.smalldesignideas.com/wp-content/uploads/2016/01/2605_7acb0c71-0aa2-405b-a471-0e9f3731643c_max_1600_1052_-sypialnia-styl-nowoczesny.jpg",
+    "bookedForTimes": 0
   }]
