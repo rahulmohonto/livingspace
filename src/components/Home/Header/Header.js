@@ -11,7 +11,7 @@ import Jump from 'react-reveal/Jump';
 const Header = () => {
     const getText = (name) => {
         const serachHouse = document.getElementById('form-apart').value;
-        console.log('clicked', serachHouse == name);
+        console.log('clicked', serachHouse === name);
     }
 
     return (

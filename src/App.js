@@ -25,12 +25,12 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-            <PrivateRoute path="/details/:_id">
+            <Route path="/details/:_id">
               <ApartmentDetails />
-            </PrivateRoute>
-            <PrivateRoute path="/login">
+            </Route>
+            <Route path="/login">
               <Login />
-            </PrivateRoute>
+            </Route>
             <Route path="/">
               <Home />
             </Route>
