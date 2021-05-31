@@ -34,9 +34,9 @@ const Login = () => {
             history.replace(from);
 
             // ...
-        }).catch(function (error) {
-            const errorMessage = error.message;
-            console.log(errorMessage);
+            // }).catch(function (error) {
+            //     const errorMessage = error.message;
+            //     console.log(errorMessage);
         });
     }
 
