@@ -9,8 +9,9 @@ import {
 } from "react-router-dom";
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
-import ApartmentDetails from './components/ApartmentDetails/ApartmentDetails';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute'
+import ApartmentDetails from './components/ApartmentDetails/ApartmentDetails';
+
 
 export const UserContext = createContext();
 
@@ -25,12 +26,12 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/details/:_id">
+            <PrivateRoute path="/details/:_id">
               <ApartmentDetails />
-            </Route>
-            <Route path="/login">
+            </PrivateRoute>
+            <PrivateRoute path="/login">
               <Login />
-            </Route>
+            </PrivateRoute>
             <Route path="/">
               <Home />
             </Route>
