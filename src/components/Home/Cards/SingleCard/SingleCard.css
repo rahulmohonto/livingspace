@@ -5,3 +5,10 @@
     height: 20px;
     width:20px;
 }
+.flat-card {
+    background-color: rgb(253, 241, 241);
+}
+.flat-card:hover {
+    background-color: white;
+    cursor: pointer;
+}

@@ -40,7 +40,7 @@ const ApartmentDetails = () => {
 
     // console.log(result[0].apartmentName)
     return (
-        <section className="detail-container mt-5">
+        <section className="detail-container my-5">
             <Bounce bottom duration={4000} delay={3000} effect="fadeInUp" effectOut="fadeOutLeft">
                 <div className="apartmentImage">
                     <h2 className="text-center d-flex justify-content-center align-items-center">{result[0] && result?.[0].apartmentName}</h2>
