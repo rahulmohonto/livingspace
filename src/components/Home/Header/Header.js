@@ -9,9 +9,9 @@ import Zoom from 'react-reveal/Zoom';
 import Jump from 'react-reveal/Jump';
 
 const Header = () => {
-    const getText = () => {
+    const getText = (name) => {
         const serachHouse = document.getElementById('form-apart').value;
-        console.log('clicked', serachHouse);
+        console.log('clicked', serachHouse === name);
     }
 
     return (
@@ -25,7 +25,7 @@ const Header = () => {
                             </h1></Fade>
                             <Zoom delay={600} effect="fadeInUp">  <h4 className="text-center secondText">Living Organization at Your Doorstep</h4></Zoom>
                             <div className="search-container align-content-center">
-                                <Jump delay={900} effect="easeIn">  
+                                <Jump delay={900} effect="easeIn">
                                     <Form id="form-apart" className="d-flex">
                                         <FormControl
                                             type="search"

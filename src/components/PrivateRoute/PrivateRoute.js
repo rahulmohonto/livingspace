@@ -4,7 +4,7 @@ import { Redirect, Route } from 'react-router-dom';
 
 const PrivateRoute = ({ children, ...rest }) => {
     const loggedInUser = useSelector(state => state.userDetails);
-
+    
     return (
         <Route
             {...rest}
