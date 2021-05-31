@@ -1,12 +1,12 @@
-import react from 'react';
+import React from 'react';
 import ReactDOM, { unstable_renderSubtreeIntoContainer } from 'react-dom';
 import Header from '../../Header/Header'
 import { isTSAnyKeyword } from '@babel/types';
-import { render } from '@testing-library/react'
-import Login from '../../../Login/Login';
+import { render } from '@testing-library/react';
+
 import Footer from '../../Footer/Footer';
 import NavbarTop from '../../Navbar/Navbar';
-import ApartmentDetails from '../../../ApartmentDetails/ApartmentDetails';
+
 import Services from '../../Services/Services';
 
 

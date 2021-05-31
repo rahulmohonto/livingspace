@@ -10,6 +10,7 @@ import {
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
 import ApartmentDetails from './components/ApartmentDetails/ApartmentDetails';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute'
 
 export const UserContext = createContext();
 

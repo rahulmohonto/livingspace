@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCtTk03ipda9P86tzcT9LuF5eKxwM6LL-c",
-    authDomain: "full-stack-client-assignment.firebaseapp.com",
-    projectId: "full-stack-client-assignment",
-    storageBucket: "full-stack-client-assignment.appspot.com",
-    messagingSenderId: "741589790805",
-    appId: "1:741589790805:web:85365949886c226a01e4dc"
+    apiKey: "AIzaSyCjRY5SvI24tEfKhbUFplplW3UeAkVT2dE",
+    authDomain: "tour-selector-assignment.firebaseapp.com",
+    projectId: "tour-selector-assignment",
+    storageBucket: "tour-selector-assignment.appspot.com",
+    messagingSenderId: "486101605507",
+    appId: "1:486101605507:web:e7b3e1423f327eebbb0fb6"
 };
 export default firebaseConfig;

@@ -24,7 +24,7 @@ const ApartmentDetails = () => {
     }
 
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-    console.log(loggedInUser);
+    console.log(loggedInUser.name);
     console.log(setLoggedInUser);
     const [detailData, setDetailData] = useState([]);
     const { _id } = useParams();
