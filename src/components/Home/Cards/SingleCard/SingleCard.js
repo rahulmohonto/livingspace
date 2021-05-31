@@ -35,7 +35,6 @@ const SingleCard = (props) => {
                     </Card.Text>
                     <Card.Footer style={{ height: '3rem' }}>
 
-
                         <h5 className="text-success priceText">{apartmentPrice}</h5>
 
                     </Card.Footer>
