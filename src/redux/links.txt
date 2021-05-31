@@ -1,9 +1,0 @@
-https://www.c-sharpcorner.com/article/multiple-reducer-in-redux/
-
-https://react-redux.js.org/tutorials/quick-start
-
-https://www.digitalocean.com/community/tutorials/how-to-manage-state-in-react-with-redux#:~:text=1%20Setting%20Up%20a%20Store.%20In%20this%20step%2C,and%20call%20your%20actions%20from%20your%20component.%20
-
-and
-
-phero b3 redux module

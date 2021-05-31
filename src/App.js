@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute'
 import ApartmentDetails from './components/ApartmentDetails/ApartmentDetails';
-import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (

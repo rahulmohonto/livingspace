@@ -1,19 +1,19 @@
 import React from 'react';
-// import { useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import './Login.css';
-// import userImage from '../../images/user-group-296.png';
+import userImage from '../../images/user-group-296.png';
 import Button from 'react-bootstrap/Button';
 import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import firebaseConfig from './firebase.config';
+import { useContext } from 'react';
+import { UserContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
-import { useDispatch } from 'react-redux';
-import { updateUserDetails } from '../../redux/actions/userActions';
 
 
 const Login = () => {
-    const dispatch = useDispatch();
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const history = useHistory();
     const location = useLocation();
     const { from } = location.state || { from: { pathname: "/" } };
@@ -27,20 +27,24 @@ const Login = () => {
         firebase.auth().signInWithPopup(provider).then(function (result) {
             const { displayName, email } = result.user;
 
-            dispatch(updateUserDetails(displayName, email));
+            const signedInUser = { name: displayName, email: email }
+            setLoggedInUser(signedInUser);
+            console.log(loggedInUser)
 
             history.replace(from);
+
+            // ...
         }).catch(function (error) {
             const errorMessage = error.message;
             console.log(errorMessage);
         });
     }
 
-    // const { register, handleSubmit, formState: { errors } } = useForm();
-    // const onSubmit = data => console.log(data);
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const onSubmit = data => console.log(data);
     return (
         <section className="login-container">
-            {/* <div className="row">
+            <div className="row">
                 <div className="login-form">
                     <div class="col wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
                         <div className="col d-flex justify-content-center align-items-center mt-4">
@@ -61,7 +65,7 @@ const Login = () => {
 
                     </div>
                 </div>
-            </div> */}
+            </div>
             <div className="row icon-title-holder mt-5 text-center">
                 <Button onClick={handleGoogleSignIn} className="btn btn-light">
                     <div className="col d-flex justify-content-center align-items-center ">

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import './ApartmentDetails.css';
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
+
 import Bounce from 'react-reveal/Bounce';
 import { useSelector } from 'react-redux';
 
@@ -21,11 +22,22 @@ const ApartmentDetails = () => {
         e.target.reset();
     }
 
-    let detailData;
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    console.log(loggedInUser.name);
+    console.log(setLoggedInUser);
+    const [detailData, setDetailData] = useState([]);
     const { _id } = useParams();
-    detailData = useSelector(state => state.apartmentsData.apartments);
+    console.log(_id);
+
+    useEffect(() => {
+        setDetailData(fakeData)
+        console.log(detailData);
+    }, [detailData])
+
     const result = detailData.filter(element => (element._id === _id));
-    
+    console.log(result);
+
+    // console.log(result[0].apartmentName)
     return (
         <section className="detail-container my-5">
             <Bounce bottom duration={4000} delay={3000} effect="fadeInUp" effectOut="fadeOutLeft">
