@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home/Home/Home';
-import React, { createContext, useState } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,16 +9,12 @@ import {
 } from "react-router-dom";
 import NavbarTop from './components/Home/Navbar/Navbar';
 import Login from './components/Login/Login';
-import PrivateRoute from './components/PrivateRoute/PrivateRoute'
 import ApartmentDetails from './components/ApartmentDetails/ApartmentDetails';
-
-
-export const UserContext = createContext();
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
-  const [loggedInUser, setLoggedInUser] = useState([])
   return (
-    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+    <>
       <Router>
         <div className="App">
           <NavbarTop />
@@ -39,7 +35,7 @@ function App() {
         </div>
       </Router>
       <footer className="text-center text-primary"> <small>Living Space &copy; Copyright {(new Date()).getFullYear()}. All Rights Reserved</small> </footer>
-    </UserContext.Provider>
+    </>
   );
 }
 
