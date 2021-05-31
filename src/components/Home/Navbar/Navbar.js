@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Container } from 'react-bootstrap';
 import './Navbar.css';
-import Anime, { anime } from 'react-anime';
+import Anime from 'react-anime';
 import Reveal from 'react-reveal/Reveal';
 
 const NavbarTop = () => {
