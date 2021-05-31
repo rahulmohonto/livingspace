@@ -1,12 +1,11 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { UserContext } from '../../App';
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import fakeData from '../FakeData/FakeData.json';
 import './ApartmentDetails.css';
 import emailjs from 'emailjs-com';
 import { init } from 'emailjs-com';
 
 import Bounce from 'react-reveal/Bounce';
+import { useSelector } from 'react-redux';
 
 
 const ApartmentDetails = () => {
@@ -23,17 +22,11 @@ const ApartmentDetails = () => {
         e.target.reset();
     }
 
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-    console.log(loggedInUser);
-    console.log(setLoggedInUser);
-    const [detailData, setDetailData] = useState([]);
+    let detailData;
     const { _id } = useParams();
     console.log(_id);
-
-    useEffect(() => {
-        setDetailData(fakeData)
-        console.log(detailData);
-    }, [detailData])
+    
+    detailData = useSelector(state => state.apartmentsData.apartments);
 
     const result = detailData.filter(element => (element._id === _id));
     console.log(result);
