@@ -6,18 +6,21 @@ import ServiceDetail from "../ServiceDetail/ServiceDetail";
 
 const servicesData = [
   {
+    id: "1",
     name: "Flat Booking Made Easy",
     img: Financing,
     description:
       "Our stress-free flat booking service that can find economic apartments to save your money",
   },
   {
+    id: "2",
     name: "Wide Range of Properties",
     img: Property,
     description:
       "With a robust selection of popular properties on hand as well as leading properties from experts",
   },
   {
+    id: "3",
     name: "Trusted by Thousands",
     img: Trusted,
     description:
@@ -40,7 +43,7 @@ const Services = () => {
         <div className="d-flex justify-content-center mt-5 pt-4">
           <div className="w-75 row">
             {servicesData.map((service) => (
-              <ServiceDetail service={service}></ServiceDetail>
+              <ServiceDetail key={service.id} service={service}></ServiceDetail>
             ))}
           </div>
         </div>
