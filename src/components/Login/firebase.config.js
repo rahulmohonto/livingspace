@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCjRY5SvI24tEfKhbUFplplW3UeAkVT2dE",
-    authDomain: "tour-selector-assignment.firebaseapp.com",
-    projectId: "tour-selector-assignment",
-    storageBucket: "tour-selector-assignment.appspot.com",
-    messagingSenderId: "486101605507",
-    appId: "1:486101605507:web:e7b3e1423f327eebbb0fb6"
+    apiKey: "AIzaSyCFsM41vY4_QvFrLsEsfEfs4imrO-3TJsY",
+    authDomain: "ab-ship-management.firebaseapp.com",
+    projectId: "ab-ship-management",
+    storageBucket: "ab-ship-management.appspot.com",
+    messagingSenderId: "846993632983",
+    appId: "1:846993632983:web:bd2b96b3fd956c44558a92"
 };
 export default firebaseConfig;

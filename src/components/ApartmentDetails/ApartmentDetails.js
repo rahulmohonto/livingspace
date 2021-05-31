@@ -22,18 +22,11 @@ const ApartmentDetails = () => {
         e.target.reset();
     }
 
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
-    console.log(loggedInUser.name);
-    console.log(setLoggedInUser);
-    const [detailData, setDetailData] = useState([]);
+    let detailData;
     const { _id } = useParams();
     console.log(_id);
 
-    useEffect(() => {
-        setDetailData(fakeData)
-        console.log(detailData);
-    }, [detailData])
-
+    detailData = useSelector(state => state.apartmentsData.apartments);
     const result = detailData.filter(element => (element._id === _id));
     console.log(result);
 
